@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Feedback Page</h1>
+      <div class="form-container">
+        <h2>Submit Feedback</h2>
+        <form id="feedback-form">
+          <input
+            type="text"
+            id="feedback-name"
+            placeholder="Enter your name"
+            required
+          />
+          <textarea
+            id="feedback-text"
+            placeholder="Enter your feedback here..."
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="buttons">
+        <button id="show-feedbacks">Show Feedbacks</button>
+        <button id="hide-feedbacks" style="display: none">
+          Hide Feedbacks
+        </button>
+      </div>
+      <div class="feedback-list" id="feedback-list" style="display: none"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
