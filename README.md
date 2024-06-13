@@ -102,8 +102,7 @@ Frontend/
 ![image](https://github.com/youessaitch/Simple-Feedback-Management-System/assets/72415411/14ac8cf4-324a-40c6-b134-2c437cff8c45)
 
 ## Contributors
-- Ayush Kumar
-- IIT Kharagpur '25
+- Ayush Kumar (IIT Kharagpur '25)
 
 
 
